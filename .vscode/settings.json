@@ -1,0 +1,5 @@
+{
+  "typescript.extension.sortImports.sortMethod": "importName",
+  "typescript.extension.sortImports.sortOnSave": false,
+  "javascript.implicitProjectConfig.experimentalDecorators": true
+}
