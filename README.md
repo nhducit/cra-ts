@@ -7,3 +7,4 @@ React boilerplate base on Create React App Typescript:
 - Emotion
 - React-Helmet
 - Husky, Prettier
+- absolute paths with `@app`
