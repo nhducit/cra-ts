@@ -1,8 +1,9 @@
+import Header from '@app/components/Header'
+import { UI } from '@app/constants'
+import { css } from 'emotion'
 import * as React from 'react'
 import { Fragment } from 'react'
-import { css } from '../../node_modules/emotion'
-import { UI } from '../constants'
-import Header from './Header'
+
 const Devtools =
   process.env.NODE_ENV !== 'production'
     ? // tslint:disable-next-line

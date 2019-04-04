@@ -1,6 +1,6 @@
+import { UI } from '@app/constants'
+import { css } from 'emotion'
 import * as React from 'react'
-import { css } from '../../node_modules/emotion'
-import { UI } from '../constants'
 
 const wrapper = css`
   background-color: green;
