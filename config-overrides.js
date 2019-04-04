@@ -7,14 +7,3 @@ module.exports = override(
     '@app': path.resolve(__dirname, 'src'),
   }),
 );
-
-// module.exports = function override(config) {
-//   config.resolve = {
-//     ...config.resolve,
-//     alias: {
-//       '@app': path.resolve(__dirname, 'src'),
-//     },
-//   };
-
-//   return config;
-// };
