@@ -1,3 +1,13 @@
+## Running Dev.
+
+`yarn dev`
+
+## Running mock
+
+`yarn mock`
+
+> in separate tab.
+
 React boilerplate base on Create React App Typescript:
 
 - React
@@ -7,3 +17,6 @@ React boilerplate base on Create React App Typescript:
 - Emotion
 - React-Helmet
 - Husky, Prettier
+- absolute paths with `@app`
+- React Apollo
+- Graphql Mock Server

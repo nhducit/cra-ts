@@ -1,11 +1,11 @@
+import { STORE } from '@app/constants'
+import '@app/setup'
 import { css } from 'emotion'
 import { inject, observer } from 'mobx-react'
 import { RouterStore } from 'mobx-react-router'
 import * as React from 'react'
 import { RouteComponentProps } from 'react-router'
 import logo from '../../assets/logo.svg'
-import { STORE } from '../../constants'
-import '../../setup'
 import './App.css'
 
 export interface IAppProps extends RouteComponentProps<any> {
